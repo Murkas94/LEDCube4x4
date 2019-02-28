@@ -1,5 +1,5 @@
 /*
-* LEDQube.c
+* LEDCube.c
 *
 * Created: 20.04.2015 22:52:28
 *  Author: Markus
@@ -18,7 +18,7 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include "Clockdef.h"
-#include "LEDQube4x4.h"
+#include "LEDCube4x4.h"
 #include "Effects.h"
 #include "BaseEffects.h"
 #include <string.h>

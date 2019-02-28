@@ -5,7 +5,7 @@
 *  Author: Markus
 */
 #include "Clockdef.h"
-#include "LEDQube4x4.h"
+#include "LEDCube4x4.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <avr/io.h>

@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>LEDQube</AssemblyName>
-    <Name>LEDQube4x4</Name>
-    <RootNamespace>LEDQube</RootNamespace>
+    <AssemblyName>LEDCube</AssemblyName>
+    <Name>LEDCube4x4</Name>
+    <RootNamespace>LEDCube</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -112,10 +112,10 @@
     <Compile Include="Effects.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="LEDQube4x4.c">
+    <Compile Include="LEDCube4x4.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="LEDQube4x4.h">
+    <Compile Include="LEDCube4x4.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

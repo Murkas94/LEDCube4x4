@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
-Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LEDQube4x4", "LEDQube\LEDQube4x4.cproj", "{222BAEC5-2960-4696-861A-F09EC4D54F28}"
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LEDCube4x4", "LEDCube\LEDCube4x4.cproj", "{222BAEC5-2960-4696-861A-F09EC4D54F28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
