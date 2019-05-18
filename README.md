@@ -15,6 +15,16 @@ This project contains the sourcecode for a LED Cube with 4x4x4 LEDs with a singl
 
 The project is build with Atmel Studio 6.2. The project-file is included, so building should be possible without hesitations. Please also read the [description](#hardware-description) of the device-hardware, since fuses has to be set for correct behaviour.
 
+The compiled code can be uploaded to the atmega by using an Atmel Studio external tool. I set it up like the following:
+
+|Name|Value
+|-|-
+|Title|`USBTiny Atmega328p`
+|Command|`C:\Program Files\AVRDude\bin\avrdude.exe`
+|Arguments|`-c usbtiny -p m328p -vvvv -P usb -U flash:w:$(TargetDir)$(TargetName).hex:a`
+
+Of course you have to adapt the values depending on your avrdude path and your programmer.
+
 ## Hardware description
 
 As already said, the qubes use an atmega 328p as known from the Arduino UNO.
